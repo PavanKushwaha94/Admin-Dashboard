@@ -1,0 +1,213 @@
+/* Basic CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+li {
+  list-style: none;
+}
+h1 {
+  color: #444;
+}
+
+/* End Basic CSS */
+
+/* Sidebar Start */
+.side-menu {
+  position: fixed;
+  background-color: #d7bc11;
+  width: 23%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.side-menu .brand-name {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 26px;
+}
+.side-menu li {
+  font-size: 24px;
+  padding: 7px 40px;
+  color: white;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.side-menu li:hover {
+  background-color: white;
+  color: #f05462;
+}
+.side-menu ul {
+  padding-top: 10px;
+}
+
+/* Sidebar End */
+
+/* Header Start */
+.container {
+  width: 77%;
+  height: 56px;
+  background-color: #f0efef;
+  margin-left: 23%;
+  box-shadow: 0 2px 5px 4px rgba(0.35, 0.35, 0.35, 0.35);
+}
+.container .header .nav .search {
+  margin-left: 10px;
+  padding-top: 10px;
+}
+.container .header .nav .search input {
+  width: 35%;
+  height: 30px;
+  border-radius: 4px;
+  right: 0;
+  border: 2px solid black;
+}
+.container .header .nav .search input:hover {
+  border: 4px solid red;
+}
+
+.container .header .nav .search button {
+  width: 37px;
+  height: 30px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 5px;
+  border: 0.5px solid #e5093c;
+}
+.container .right-nav {
+  margin-top: -27px;
+  padding-left: 900px;
+  font-size: 30px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+.box1 {
+  padding-right: 17px;
+}
+.box2 {
+  padding-right: 17px;
+}
+
+.box3 {
+  padding-right: 10px;
+}
+/* Header End */
+
+/* Content Start */
+.content-box {
+  width: 100%;
+  margin-top: 25px;
+}
+.content-box .main-heading {
+  padding-left: 350px;
+}
+.main-header {
+  background-color: white;
+  width: 77%;
+  height: 240px;
+  margin-top: 12px;
+  margin-left: 23%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 21px;
+}
+.header-box {
+  height: 180px;
+  width: 207px;
+  background-color: #e0dcdc;
+  box-shadow: 0 6px 10px -3px rgba(0, 0, 0, 0.35);
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 34px;
+  color: black;
+}
+.header-box h1 {
+  color: red;
+}
+.student-icon {
+  font-size: 37px;
+  padding-top: 4px;
+}
+
+.another-dash {
+  background-color: white;
+  width: 77%;
+  height: 200px;
+  margin-left: 23%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.chart-tittle h1 {
+  padding-top: 10px;
+  text-align: center;
+}
+.chart-tittle {
+  background-color: #d7cbce;
+  margin-left: -82%;
+  width: 60%;
+  border-radius: 5px;
+  display: inline-flex;
+  padding-left: 14px;
+  text-align: center;
+}
+.chart-tittle h1 {
+  color: red;
+}
+
+.chart-tittle1 {
+  background-color: #d7cbce;
+  margin-left: -82%;
+  margin-right: 77px;
+  width: 63%;
+  border-radius: 5px;
+  display: inline-flex;
+  text-align: center;
+  padding-left: 14px;
+}
+.chart-tittle1 h1 {
+  padding-top: 10px;
+  color: red;
+}
+
+.main-tittle {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+  font-family: "poppins", sans-serif;
+}
+
+/* Content End */
+
+/* Footer Start */
+.main-footer {
+  width: 77%;
+  background-color: #d5cfcf;
+  height: 100px;
+  margin-left: 23%;
+  margin-top: 195px;
+  text-align: center;
+  padding-top: 8px;
+  font-family: "poppins", sans-serif;
+  box-shadow: 0 5px 5px 4px rgba(0.35, 0.35, 0.35, 0.35);
+}
+.main-footer h2 {
+  padding-top: 10px;
+}
+
+/* Footer End */

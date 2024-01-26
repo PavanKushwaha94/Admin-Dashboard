@@ -1,0 +1,222 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+/*  Sidebar Start */
+.sidebar-menu {
+  width: 23%;
+  min-height: 100vh;
+  position: fixed;
+  background-color: #e7e0df;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 5px 4px rgba(0.35, 0.35, 0.35, 0.35);
+  font-family: "poppins", sans-serif;
+}
+.sidebar-menu a {
+  text-decoration: none;
+  color: black;
+}
+.brand-menu {
+  align-items: center;
+  justify-content: center;
+  padding-top: 14px;
+  background-color: red;
+  border-radius: 5px;
+  display: flex;
+}
+.main-menu {
+  padding-top: 2px;
+  padding-left: 20px;
+}
+.main-menu li {
+  padding-top: 20px;
+  font-size: 24px;
+  flex-direction: column;
+  align-items: center;
+}
+.main-menu li a:hover {
+  color: red;
+}
+/*  Sidebar End */
+
+/* Header Start */
+.main-header {
+  width: 77%;
+  background-color: #efe0e0;
+  margin-left: 23%;
+  height: 70px;
+  box-shadow: 0 2px 5px 4px rgba(0.35, 0.35, 0.35, 0.35);
+}
+.search-box {
+  width: 34%;
+  height: 70px;
+}
+.search-box input {
+  height: 36px;
+  width: 280px;
+  margin-left: 20px;
+  margin-top: 17px;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+}
+.search-box input:hover {
+  border: 2px solid red;
+}
+.search-box button {
+  height: 36px;
+  width: 45px;
+  border: none;
+  padding-top: 17px;
+  margin-left: 0;
+  background-color: #efe0e0;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.navbar {
+  width: 457px;
+  height: 70px;
+  margin-left: 356px;
+  margin-top: -70px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar ul {
+  padding-top: 24px;
+}
+.navbar .nav {
+  padding-left: 30px;
+  color: black;
+}
+.navbar .nav:hover {
+  color: red;
+}
+.right-bar {
+  height: 70px;
+  width: 200px;
+  margin-top: -70px;
+  margin-left: 85.3%;
+}
+.right-bar .right {
+  padding-left: 54px;
+  padding-top: 15px;
+  font-size: 36px;
+  cursor: pointer;
+}
+.right-bar .right .right1 {
+  padding-left: 4px;
+}
+.right-bar .right .right2 {
+  padding-left: 10px;
+}
+.right-bar .right .right3 {
+  padding-left: 10px;
+}
+
+/* Header End */
+
+/* Content Start */
+.heading {
+  width: 77%;
+  height: 50px;
+  background-color: #897f7f0d;
+  margin-left: 23%;
+  margin-top: 30px;
+  padding-top: 7px;
+}
+.heading h1 {
+  padding-left: 30px;
+  font-family: "poppins", sans-serif;
+  text-align: center;
+  color: #5ddc12;
+}
+.container {
+  width: 76%;
+  height: 220px;
+  margin-left: 23%;
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.container .box1 {
+  width: 300px;
+  height: 200px;
+  margin-left: 23px;
+  padding-top: 20px;
+  background-color: #c4293800;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px 4px rgba(0.35, 0.35, 0.35, 0.35);
+  color: #0ef2af;
+}
+
+.container .box1 .pic {
+  font-size: 50px;
+  padding-top: 10px;
+  color: black;
+}
+.container .box1 h3 {
+  padding-top: 15px;
+  font-size: 30px;
+  color: red;
+  cursor: pointer;
+}
+.some-words {
+  width: 77%;
+  height: 87px;
+  margin-left: 23%;
+  text-align: center;
+  font-size: 17px;
+  background-color: #b7abab2b;
+  box-shadow: 0 2px 5px 4px rgba(0.35, 0.35, 0.35, 0.35);
+}
+.some-words p {
+  padding-top: 12px;
+}
+.some-words p:hover {
+  color: red;
+}
+/* Content End */
+
+/* Chart Start */
+.chart-panel {
+  width: 69%;
+  height: 400px;
+  margin-left: 31%;
+  background-color: white;
+  margin-top: 30px;
+}
+.first-chart {
+  width: 755px;
+  background-color: azure;
+  box-shadow: 0 2px 5px 4px rgba(0.35, 0.35, 0.35, 0.35);
+  padding-left: 15px;
+  padding-top: 48px;
+  margin-left: 25px;
+  margin-top: 57px;
+  height: 340px;
+}
+
+/* Chart End */
+
+/* Footer Start */
+.main-footer {
+  width: 77%;
+  height: 132px;
+  margin-left: 23%;
+  margin-top: 30px;
+  background-color: #d5cfcf;
+  box-shadow: 0 5px 5px 4px rgba(0.35, 0.35, 0.35, 0.35);
+  text-align: center;
+  padding-top: 23px;
+}
+.main-footer h2 {
+  padding-top: 10px;
+}
+/* Footer End */
